@@ -288,3 +288,21 @@ transition:0.3s;
 .card:hover img{
 transform:scale(1.08);
 }
+.search-box{
+    text-align:center;
+    padding:30px 20px;
+}
+
+.search-box input{
+    width:90%;
+    max-width:500px;
+    padding:15px;
+    border:2px solid #ff7b00;
+    border-radius:30px;
+    font-size:18px;
+    outline:none;
+}
+
+.search-box input:focus{
+    box-shadow:0 0 10px rgba(255,123,0,0.4);
+}
