@@ -306,3 +306,18 @@ transform:scale(1.08);
 .search-box input:focus{
     box-shadow:0 0 10px rgba(255,123,0,0.4);
 }
+.contact{
+    background:#fff;
+    text-align:center;
+    padding:40px 20px;
+}
+
+.contact h2{
+    color:#ff7b00;
+}
+
+.contact a{
+    color:#000;
+    text-decoration:none;
+    font-weight:bold;
+}
