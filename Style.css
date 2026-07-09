@@ -53,3 +53,32 @@
 .btn:hover{
     background:#e65c00;
 }
+.catalogue{
+    max-width:1200px;
+    margin:0 auto;
+    padding:40px 20px;
+    text-align:center;
+}
+
+.products{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:30px;
+}
+
+.card{
+    width:300px;
+    background:#fff;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
+    overflow:hidden;
+    text-align:center;
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:contain;
+    background:white;
+}
